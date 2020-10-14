@@ -1,0 +1,62 @@
+// 颜色
+$blue:#314396;
+$blue_two:#607795;
+$green:#2CCC6F;
+$green_two:#7bad70;
+$green_three:#65c875;
+$red:#dc6068;
+$gray:#CBD5DB;
+$background:#f6f8fa;
+$fontText:#222;
+$orange:#FA6B41;
+
+//border-shadow 阴影
+$shadow:1px 0px 20px rgba(0, 0, 0, 0.05);
+
+// flex布局
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin flexStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@mixin flexStartC {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+@mixin flexEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@mixin alignCenter {
+  display: flex;
+  align-items: center;
+}
+@mixin alignStretch {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+@mixin borderBox {
+  box-sizing: border-box;
+}
